@@ -1,0 +1,16 @@
+C:\Users\s2000949\source\repos\GitCalculator\bin\Debug\net5.0\GitCalculator.exe
+C:\Users\s2000949\source\repos\GitCalculator\bin\Debug\net5.0\GitCalculator.deps.json
+C:\Users\s2000949\source\repos\GitCalculator\bin\Debug\net5.0\GitCalculator.runtimeconfig.json
+C:\Users\s2000949\source\repos\GitCalculator\bin\Debug\net5.0\GitCalculator.runtimeconfig.dev.json
+C:\Users\s2000949\source\repos\GitCalculator\bin\Debug\net5.0\GitCalculator.dll
+C:\Users\s2000949\source\repos\GitCalculator\bin\Debug\net5.0\ref\GitCalculator.dll
+C:\Users\s2000949\source\repos\GitCalculator\bin\Debug\net5.0\GitCalculator.pdb
+C:\Users\s2000949\source\repos\GitCalculator\obj\Debug\net5.0\GitCalculator.csproj.AssemblyReference.cache
+C:\Users\s2000949\source\repos\GitCalculator\obj\Debug\net5.0\GitCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2000949\source\repos\GitCalculator\obj\Debug\net5.0\GitCalculator.AssemblyInfoInputs.cache
+C:\Users\s2000949\source\repos\GitCalculator\obj\Debug\net5.0\GitCalculator.AssemblyInfo.cs
+C:\Users\s2000949\source\repos\GitCalculator\obj\Debug\net5.0\GitCalculator.csproj.CoreCompileInputs.cache
+C:\Users\s2000949\source\repos\GitCalculator\obj\Debug\net5.0\GitCalculator.dll
+C:\Users\s2000949\source\repos\GitCalculator\obj\Debug\net5.0\ref\GitCalculator.dll
+C:\Users\s2000949\source\repos\GitCalculator\obj\Debug\net5.0\GitCalculator.pdb
+C:\Users\s2000949\source\repos\GitCalculator\obj\Debug\net5.0\GitCalculator.genruntimeconfig.cache
