@@ -1,28 +1,23 @@
 ﻿using System;
 
-/*string operation = readOperation();
+string operation = ReadOperation();
 int calculation = 0;
 if(operation == "+")
 {
-    calculation = getNumber("Kirjoita numero 1:") + getNumber("Kirjoita numero 2:");
+    calculation = GetNumber("Kirjoita numero 1:") + GetNumber("Kirjoita numero 2:");
 } else if(operation == "-")
 {
-    calculation = getNumber("Kirjoita numero 1:") - getNumber("Kirjoita numero 2:");
+    calculation = GetNumber("Kirjoita numero 1:") - GetNumber("Kirjoita numero 2:");
 } else if(operation == "*")
 {
-    calculation = getNumber("Kirjoita numero 1:") * getNumber("Kirjoita numero 2:");
+    calculation = GetNumber("Kirjoita numero 1:") * GetNumber("Kirjoita numero 2:");
 } else if(operation == "/")
 {
-    calculation = getNumber("Kirjoita numero 1:") / getNumber("Kirjoita numero 2:");
-}*/
-int number1 = getNumber("Kirjoita numero 1:");
-int number2 = getNumber("Kirjoita numero 2:");
-int summa = number1 + number2;
-int erotus = number1 - number2;
-Console.WriteLine("summa = " + summa);
-Console.WriteLine("erotus = " + erotus);
+    calculation = GetNumber("Kirjoita numero 1:") / GetNumber("Kirjoita numero 2:");
+}
+Console.WriteLine("Laskun tulos: " + calculation);
 
-int getNumber(string text)
+int GetNumber(string text)
 {
     try
     {
@@ -33,18 +28,18 @@ int getNumber(string text)
     catch(FormatException)
     {
         Console.WriteLine("Antamasi syöte ei ole numero!");
-        return getNumber(text);
+        return GetNumber(text);
     }
 }
 
-string readOperation()
+string ReadOperation()
 {
-    Console.WriteLine("Kirjoita suoritettava laskuoperaatio:");
+    Console.WriteLine("Kirjoita suoritettava laskuoperaatio (+, -, *, /):");
     String operation = Console.ReadLine();
     if(operation == "+" || operation == "-" || operation == "*" || operation == "/")
         return operation;
 
     Console.WriteLine("Laskuoperaatiota " + operation + " ei tunnistettu!");
     Console.WriteLine();
-    return readOperation();
+    return ReadOperation();
 }
