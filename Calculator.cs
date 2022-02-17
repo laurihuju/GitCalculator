@@ -68,26 +68,46 @@ namespace GitCalculator
                     return "e";
                 if(operators[nextOperator] == '+')
                 {
-                    calculation += numbers[i];
+                    calculation = sum(calculation, numbers[i]);
                     nextOperator++;
                 }
                 else if (operators[nextOperator] == '-')
                 {
-                    calculation -= numbers[i];
+                    calculation = difference(calculation, numbers[i]);
                     nextOperator++;
                 }
                 else if (operators[nextOperator] == '*')
                 {
-                    calculation *= numbers[i];
+                    calculation = multiply(calculation, numbers[i]);
                     nextOperator++;
                 }
                 else if (operators[nextOperator] == '/')
                 {
-                    calculation /= numbers[i];
+                    calculation = divide(calculation, numbers[i]);
                     nextOperator++;
                 }
             }
             return calculation + "";
+        }
+
+        private static float sum(float number1, float number2)
+        {
+            return number1 + number2;
+        }
+
+        private static float difference(float number1, float number2)
+        {
+            return number1 - number2;
+        }
+
+        private static float multiply(float number1, float number2)
+        {
+            return number1 * number2;
+        }
+
+        private static float divide(float number1, float number2)
+        {
+            return number1 / number2;
         }
     }
 }
