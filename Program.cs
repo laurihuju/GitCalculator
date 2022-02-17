@@ -1,6 +1,27 @@
 ﻿using System;
+using GitCalculator;
 
-string operation = ReadOperation();
+while (true)
+{
+    Console.WriteLine("Kirjoita lauseke tai kirjoita exit poistuaksesi:");
+    string input = Console.ReadLine();
+    if(input == "exit")
+    {
+        Console.WriteLine("Olet poistunut laskimesta.");
+        break;
+    }
+    string result = Calculator.CalculateInput(input);
+    if(result == "e")
+    {
+        Console.WriteLine("Annettu lauseke on virheellinen.");
+        Console.WriteLine();
+        continue;
+    }
+    Console.WriteLine("Kirjoittamasi lausekkeen tulos: " + result);
+    Console.WriteLine();
+}
+
+/*string operation = ReadOperation();
 int calculation = 0;
 if(operation == "+")
 {
@@ -15,7 +36,7 @@ if(operation == "+")
 {
     calculation = GetNumber("Kirjoita numero 1:") / GetNumber("Kirjoita numero 2:");
 }
-Console.WriteLine("Laskun tulos: " + calculation);
+Console.WriteLine("Laskun tulos: " + calculation);*/
 
 int GetNumber(string text)
 {
